@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X UA Compatible" content="IE=edge">
+    <meta name="viewport" content="widht=device-width,">
+    <title>Botão como link></title>
+    
+    <head >
+
+        <script >
+    
+            const listaClientes = [] 
+                        
+            function salvarClientes(){
+    
+                const elementoNomeCliente = document.getElementById("nomeCliente")
+                const nomeCliente = elementoNomeCliente.value
+    
+                const elementoEmailCliente = document.getElementById("emailCliente")
+                const emailCliente = elementoEmailCleinte.value
+    
+                const elementoWhatsappCliente = document.getElementById("whatsappCliente")
+                const whatsappCliente = elementoWhatsappCliente.value
+                
+                const cliente ={
+                    nome : nomeCliente,
+                    email : emailCliente,
+                    whatsappCliente : whatsappCliente,
+                }
+    
+                listaClientes.push(clientes)
+                inserirCliente(cliente)) 
+            }
+            
+            function inserirCliente(cliente){
+    
+                const elementoConteudoClientes = document.getElementById("conteudoClientes")
+    
+                const elementoNovoCliente = document.createElement("p")
+    
+                elementoNovoCliente.innerHTML = nome.cliente + " - " + email.cliente + " - " + whatsapp.cliente  
+    
+                elementoConteudoClientes.appendChild(elementoNovoCliente)
+            }
+        </script>
+    
+    
+    </head>
+    
+        <body>
+    
+            <div>
+    
+                <h1 class="secao-4">Cadastro de clientes</h1>
+    
+                <input class="secao-5" id="nomeCleinte" placeholder="Nome">
+                <br>
+                <br>
+                <input class="secao-5" id="emailCliente" placeholder="Email">
+                <br>
+                <br>
+                <input class="secao-5" id="whatsappCliente" placeholder="whatsapp">
+                <br>
+                <br>            
+                <button onclick="salvarClientes()">Salvar</button>
+                <button onclick="deletarClientes()">Deletar</button>
+    
+            <div>
+    
+        </body>
+    
+    </head>
+
+
+
+   

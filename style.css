@@ -1,0 +1,121 @@
+body {
+    background-color: gray;
+
+}
+
+.header {
+    padding: 10px;
+}
+
+.links {
+    display: inline;
+    margin-left: 250px;
+    font-weight: bold;
+}
+
+.links a {
+    margin-left: 15px;
+    text-decoration: overline;
+    font-weight: bolder;
+    color: black;
+    padding: 15px;
+
+}
+
+.links a:hover {
+    color: rgb(128, 128, 17);
+    border-top: 2px solid #d19f15;
+    border-bottom: 2px solid #d19f15;
+}
+
+.link-a-1 {
+    background-color: #d19f15;
+    border: black solid 2px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.link-a-2 {
+    background-color: #d19f15;
+    border: black solid 2px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.link-a-3 {
+    background-color: #d19f15;
+    border: black solid 2px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.span-1,
+.span-2 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.span-1 {
+    color: #0a0a08;
+}
+
+.span-2 {
+    color: #d19f15;
+}
+
+.secao-1 {
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+
+.secao-2 {
+    width: 500px;
+    margin-top: 50px;
+}
+
+.img {
+    width: 125%;
+    height: 50px;
+    margin: auto;
+
+}
+
+.img img {
+    border-radius: 15px;
+    width: 100%;
+
+}
+
+.secao-3 {
+    margin-left: 1500px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-weight: bold;
+}
+.secao-3 :hover {
+    color: rgb(128, 128, 17);
+    border-top: 2px solid #d19f15;
+    border-bottom: 2px solid #d19f15;
+    font-weight: bold;
+}
+
+.secao-4 {
+    color: rgb(2, 36, 82);
+    width: 50px;
+    margin-top: 5px;
+}
+
+.secao-5 {
+    color: rgb(36, 39, 31);
+    width: 50px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
